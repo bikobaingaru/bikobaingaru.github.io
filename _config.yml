@@ -1,27 +1,42 @@
 # Site settings
-title: Bit Musings
 email: bikobaingaru@outlook.com
-description: > #
 url: "https://bikobaingaru.com"
 #enforce_ssl: bikobaingaru.com
 twitter_username: bikobaingaru
 github_username:  bikobaingaru
 #stackoverflow_link: users/bikobaingaru
 
-permalink: /:categories/:year/:month/:day/:title/
-contenturl: "/blog/content/"
+# Build settings
+highlighter: rouge
 markdown: kramdown
+plugins: [jekyll-sitemap, jekyll-paginate, jekyll-gist, jekyll-feed]
+
+permalink: /:categories/:year/:month/:day/:title/
+
+# Amount of posts to show on home page
+paginate: 5
+
 kramdown:
   input: GFM
-  parse_block_html: true
-  #parse_span_html: true
-excerpt_separator: <!--more-->
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed]
+
+# Customise feed settings (uncommenting following two fields to customise feed title and description)
+title:		     "biko baingaru"
+description:	     "Experiences & thoughts with technology"
+
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#   path:	     rss-feed.xml
 
 disqus: bikobaingaru
 
 google_analytics_ua: UA-98881900-1
-
-#paginate: 5
 
 exclude:
   - Gemfile
