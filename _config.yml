@@ -1,16 +1,42 @@
 # Site settings
-email: bikobaingaru@outlook.com
+title: "biko baingaru"
+description: "Experiences & thoughts with technology"
+disqus_shortname: bikobaingaru
+reading_time:     true
+words_per_minute: 200
+
 url: "https://bikobaingaru.com"
 #enforce_ssl: bikobaingaru.com
-twitter_username: bikobaingaru
-github_username:  bikobaingaru
-#stackoverflow_link: users/bikobaingaru
+
+# Owner/author information
+owner:
+  name: biko baingaru
+  avatar: avatar.jpg
+  bio: "Software Developer @ Codeverse Technology. Opinions are mine."
+  email: bikobaingaru@outlook.com
+# Social networking links used in footer. Update and remove as you like.
+  twitter_username: bikobaingaru
+  github_username:  bikobaingaru
+  #stackoverflow_link: users/bikobaingaru
+
+# Background image to be tiled on all pages
+background: 
+
+# Analytics and webmaster tools stuff goes here
+google_analytics_ua: UA-98881900-1
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Africa/Nairobi
 
 # Build settings
 highlighter: rouge
 markdown: kramdown
 plugins: [jekyll-sitemap, jekyll-paginate, jekyll-gist, jekyll-feed]
+sass:
+  sass_dir: _sass
+  style: compressed
 
+# https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title/
 
 # Amount of posts to show on home page
@@ -24,22 +50,32 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-#plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed]
-
-# Customise feed settings (uncommenting following two fields to customise feed title and description)
-title:		     "biko baingaru"
-description:	     "Experiences & thoughts with technology"
-
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #   path:	     rss-feed.xml
 
-disqus: bikobaingaru
-
-google_analytics_ua: UA-98881900-1
-
-exclude:
+include: 
+  - .htaccess
+exclude: 
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
   - Gemfile
-  - Gemfile.lock
+  - Gruntfile.js
   - LICENSE
   - README.md
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
