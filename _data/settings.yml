@@ -12,7 +12,7 @@ google-ID: 'UA-98881900-1'
 
 menu:
 - {name: 'About', url: '../menu/about/index.html'}
-- {name: 'Writing', url: '../menu/writing/index.html'}
+- {name: 'Archive', url: '../menu/archive/index.html'}
 - {name: 'Contact', url: '../menu/contact/index.html'}
 
 social:
