@@ -2,6 +2,10 @@
 layout: page
 title: About
 ---
-Hi there! I'm Biko, software developer at [Codeverse Technology](https://codeversetech.com"). I have pursued programming as a passion, and as a career for more than ten years. The purpose of this blog is to provide a simple, clean, content-focused publishing platform for my thoughts,  expiriences, and mistakes with technology.
+I'm a developer working for [Codeverse Technology](https://codeversetech.com") where I help build line-of-business software applications that solve challenges across retail, manufacturing, health-care, education, agri-business, and hospitality. I often contribute to OSS on my [Github profile here](https://github.com/bikobaingaru).
 
-Check out my [Github profile here](https://github.com/bikobaingaru) for a compilation of some of open source projects I participate.
+This blog provides a simple, clear, content-focused publishing platform for my thoughts, expiriences, and mistakes as a practitioner in the software industry.
+
+_**DISCLOSURE**_
+
+_**Opinions and remarks expressed on this blog are my own and do not represent the views of my employer.**_
