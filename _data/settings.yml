@@ -11,13 +11,13 @@ disqus:
 google-ID: 'UA-98881900-1'
 
 menu:
-- {name: 'About', url: 'about.html'}
-- {name: 'Writing', url: 'writing.html'}
-- {name: 'Contact', url: 'contact.html'}
+- {name: 'About', url: '../menu/about/index.html'}
+- {name: 'Writing', url: '../menu/writing/index.html'}
+- {name: 'Contact', url: '../menu/contact/index.html'}
 
 social:
-- {icon: 'github', link: 'https://www.github.com/bikobaingaru'}
+- {icon: 'github', link: 'https://github.com/bikobaingaru'}
 - {icon: 'twitter', link: 'https://twitter.com/bikobaingaru'}
-- {icon: 'rss-square', link: 'https://www.bikobaingaru.com/feed.xml'}
+- {icon: 'rss-square', link: 'https://bikobaingaru.com/feed.xml'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
