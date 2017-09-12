@@ -1,6 +1,6 @@
 # Site settings
 title: "biko baingaru"
-description: "Experiences & thoughts with technology"
+description: "Thoughts, experiences, & mistakes with technology"
 disqus_shortname: bikobaingaru
 reading_time:     true
 words_per_minute: 200
@@ -32,9 +32,6 @@ timezone:    Africa/Nairobi
 highlighter: rouge
 markdown: kramdown
 plugins: [jekyll-sitemap, jekyll-paginate, jekyll-gist, jekyll-feed]
-sass:
-  sass_dir: _sass
-  style: compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title/
@@ -54,16 +51,7 @@ kramdown:
 #feed:
 #   path:	     rss-feed.xml
 
-include: 
-  - .htaccess
-exclude: 
-  - "*.less"
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
+exclude:
   - CHANGELOG
   - Capfile
   - Gemfile
