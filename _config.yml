@@ -1,6 +1,6 @@
 # Site settings
 title: "biko baingaru"
-description: "Thoughts, experiences, & mistakes with technology"
+description: "Thoughts, observations, & mistakes with technology"
 disqus_shortname: bikobaingaru
 reading_time:     true
 words_per_minute: 200
@@ -13,7 +13,7 @@ owner:
   name: biko baingaru
   avatar: avatar.jpg
   bio: "Software Developer @ Codeverse Technology. Opinions are mine."
-  email: bikobaingaru@outlook.com
+  email: bikobaingaru@gmail.com
 # Social networking links used in footer. Update and remove as you like.
   twitter_username: bikobaingaru
   github_username:  bikobaingaru

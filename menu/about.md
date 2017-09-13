@@ -4,7 +4,7 @@ title: About
 ---
 I'm a developer working for [Codeverse Technology](https://codeversetech.com") where I help build line-of-business software applications that solve challenges across retail, manufacturing, health-care, education, agri-business, and hospitality. I often contribute to OSS on my [Github profile here](https://github.com/bikobaingaru).
 
-This blog provides a simple, clear, content-focused publishing platform for my thoughts, expiriences, and mistakes as a practitioner in the software industry.
+This blog provides a simple, clear, content-focused publishing platform for my thoughts, observations, and mistakes as a practitioner in the software industry.
 
 _**DISCLOSURE**_
 
