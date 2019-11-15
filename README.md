@@ -1,3 +1,3 @@
 # Biko Baingaru
 
-This is the code for my personal blog. It includes customizations and content that are specific to my blog. To get a clean repo to work from, please visit [Vent Theme for Jekyll](https://github.com/bikobaingaru/vent).
+This is where I share my stories about learning and practicing the arts of software. Hosted on Github Pages and built using Jekyll.
